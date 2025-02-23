@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram id="factorial-algorithm" name="Faktorial">
+    <mxGraphModel dx="1044" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="start" value="Mulai" style="ellipse;fillColor=lightgreen;strokeColor=black;" vertex="1" parent="1">
+          <mxGeometry x="300" y="50" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="input" value="Masukkan n" style="rhombus;fillColor=lightyellow;strokeColor=black;" vertex="1" parent="1">
+          <mxGeometry x="300" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="checkNegative" value="n &lt; 0?" style="rhombus;fillColor=lightblue;strokeColor=black;" vertex="1" parent="1">
+          <mxGeometry x="300" y="190" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="negativeOutput" value="Faktorial tidak terdefinisi" style="rectangle;fillColor=lightcoral;strokeColor=black;" vertex="1" parent="1">
+          <mxGeometry x="450" y="190" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="initialize" value="faktorial = 1, i = 1" style="rectangle;fillColor=lightgreen;strokeColor=black;" vertex="1" parent="1">
+          <mxGeometry x="300" y="260" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="loopCondition" value="i &lt;= n?" style="rhombus;fillColor=lightblue;strokeColor=black;" vertex="1" parent="1">
+          <mxGeometry x="300" y="330" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="multiply" value="faktorial = faktorial * i" style="rectangle;fillColor=lightgreen;strokeColor=black;" vertex="1" parent="1">
+          <mxGeometry x="300" y="400" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="increment" value="i = i + 1" style="rectangle;fillColor=lightgreen;strokeColor=black;" vertex="1" parent="1">
+          <mxGeometry x="300" y="470" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="outputResult" value="Cetak Faktorial" style="rectangle;fillColor=lightcoral;strokeColor=black;" vertex="1" parent="1">
+          <mxGeometry x="300" y="540" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="end" value="Selesai" style="ellipse;fillColor=lightgreen;strokeColor=black;" vertex="1" parent="1">
+          <mxGeometry x="300" y="610" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="flow1" edge="1" source="start" target="input">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow2" edge="1" source="input" target="checkNegative">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow3" edge="1" source="checkNegative" target="negativeOutput">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow4" edge="1" source="checkNegative" target="initialize">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow5" edge="1" source="initialize" target="loopCondition">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow6" edge="1" source="loopCondition" target="multiply">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow7" edge="1" source="multiply" target="increment">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow8" edge="1" source="increment" target="loopCondition">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow9" edge="1" source="loopCondition" target="outputResult">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow10" edge="1" source="outputResult" target="end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

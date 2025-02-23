@@ -1,0 +1,138 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
+  <diagram name="Page-1" id="C2Zs-JpDco-RK96IxgGW">
+    <mxGraphModel dx="1591" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-4" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D4E157" vertex="1" parent="1">
+          <mxGeometry x="140" y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-5" value="Masukkan n" style="shape=parallelogram;whiteSpace=wrap;html=1;fillColor=#FFCC80" vertex="1" parent="1">
+          <mxGeometry x="105" y="130" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-6" value="n &lt;= 1 ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#90CAF9" vertex="1" parent="1">
+          <mxGeometry x="110" y="220" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-7" value="Cetak &#39;Bukan Bilangan Prima&#39;" style="shape=parallelogram;whiteSpace=wrap;html=1;fillColor=#FFCC80" vertex="1" parent="1">
+          <mxGeometry x="60" y="320" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-8" value="Selesai" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D4E157" vertex="1" parent="1">
+          <mxGeometry x="110" y="420" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-9" value="i = 2" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#A5D6A7" vertex="1" parent="1">
+          <mxGeometry x="360" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.101;entryY=0.527;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wLFgtBgrG-TuCbPUpyxb-10" target="wLFgtBgrG-TuCbPUpyxb-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-10" value="i &lt;= sqrt(n) ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#90CAF9" vertex="1" parent="1">
+          <mxGeometry x="355" y="310" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-11" value="n mod i == 0 ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#90CAF9" vertex="1" parent="1">
+          <mxGeometry x="355" y="420" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-13" value="i = i + 1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#A5D6A7" vertex="1" parent="1">
+          <mxGeometry x="355" y="540" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-14" value="Cetak &#39;Bilangan Prima&#39;" style="shape=parallelogram;whiteSpace=wrap;html=1;fillColor=#FFCC80" vertex="1" parent="1">
+          <mxGeometry x="550" y="310" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-15" value="Selesai" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D4E157" vertex="1" parent="1">
+          <mxGeometry x="800" y="320" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-16" edge="1" parent="1" source="wLFgtBgrG-TuCbPUpyxb-4" target="wLFgtBgrG-TuCbPUpyxb-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-17" edge="1" parent="1" source="wLFgtBgrG-TuCbPUpyxb-5" target="wLFgtBgrG-TuCbPUpyxb-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-18" edge="1" parent="1" source="wLFgtBgrG-TuCbPUpyxb-6" target="wLFgtBgrG-TuCbPUpyxb-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-19" edge="1" parent="1" source="wLFgtBgrG-TuCbPUpyxb-7" target="wLFgtBgrG-TuCbPUpyxb-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-20" edge="1" parent="1" source="wLFgtBgrG-TuCbPUpyxb-6" target="wLFgtBgrG-TuCbPUpyxb-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-21" edge="1" parent="1" source="wLFgtBgrG-TuCbPUpyxb-9" target="wLFgtBgrG-TuCbPUpyxb-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-22" edge="1" parent="1" source="wLFgtBgrG-TuCbPUpyxb-10" target="wLFgtBgrG-TuCbPUpyxb-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-29" value="tidak" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-30" value="ya" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-33" value="ya" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="308" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-34" value="tidak" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="375" y="380" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.578;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wLFgtBgrG-TuCbPUpyxb-11" target="wLFgtBgrG-TuCbPUpyxb-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="480" as="sourcePoint" />
+            <mxPoint x="330" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-36" value="Cetak &#39;bukan bilangan prima&#39;" style="shape=parallelogram;whiteSpace=wrap;html=1;fillColor=#FFCC80" vertex="1" parent="1">
+          <mxGeometry x="530" y="430" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.095;entryY=0.46;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wLFgtBgrG-TuCbPUpyxb-11" target="wLFgtBgrG-TuCbPUpyxb-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="480" as="sourcePoint" />
+            <mxPoint x="330" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-38" value="ya" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="495" y="430" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-40" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="wLFgtBgrG-TuCbPUpyxb-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="565" as="sourcePoint" />
+            <mxPoint x="320" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-41" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="570" as="sourcePoint" />
+            <mxPoint x="300" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="wLFgtBgrG-TuCbPUpyxb-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="340" as="sourcePoint" />
+            <mxPoint x="330" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-43" value="tidak" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="488" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.874;exitY=0.653;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="wLFgtBgrG-TuCbPUpyxb-14" target="wLFgtBgrG-TuCbPUpyxb-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="380" as="sourcePoint" />
+            <mxPoint x="630" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-45" value="Selesai" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D4E157" vertex="1" parent="1">
+          <mxGeometry x="800" y="438" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wLFgtBgrG-TuCbPUpyxb-46" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.9;exitY=0.519;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="wLFgtBgrG-TuCbPUpyxb-36" target="wLFgtBgrG-TuCbPUpyxb-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="480" as="sourcePoint" />
+            <mxPoint x="630" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
